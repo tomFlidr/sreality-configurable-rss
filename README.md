@@ -10,3 +10,4 @@ Sreality.cz FREE Custom Configurable RSS Channel With Images And Google Maps.
 composer create-project tomflidr/sreality-configurable-rss
 ```
 - open `index.php` and configure `$config` array.
+- then request `index.php` and enjoy results in feed reader:-)
