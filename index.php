@@ -10,7 +10,7 @@
 	
 	
 
-	$apiUrl = "https://www.sreality.cz/api/cs/v3/estates?";
+	$apiUrl = "https://www.sreality.cz/api/cs/v1/estates?";
 	$detailUrl = "https://www.sreality.cz/detail/";
 	// Google Static API Maps KEY: https://developers.google.com/maps/documentation/static-maps/?refresh=1&pli=1
 	$googleMapsApiKey = 'AIzaSyAGbOUmgMvqcRkat9DAR0n6BrQ5XcnGQdQ'; 
