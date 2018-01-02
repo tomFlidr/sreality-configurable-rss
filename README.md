@@ -1,7 +1,7 @@
 # Sreality.cz - FREE Configurable RSS Channel
 Sreality.cz FREE Custom Configurable RSS Channel With Images And Google Maps.
 
-[![Latest Stable Version](https://img.shields.io/badge/Stable-v1.0.0-brightgreen.svg?style=plastic)](https://github.com/tomflidr/sreality-configurable-rss/releases)
+[![Latest Stable Version](https://img.shields.io/badge/Stable-v1.0.1-brightgreen.svg?style=plastic)](https://github.com/tomflidr/sreality-configurable-rss/releases)
 ![PHP Version](https://img.shields.io/badge/PHP->=5.3-brightgreen.svg?style=plastic)
 
 ## Instalation

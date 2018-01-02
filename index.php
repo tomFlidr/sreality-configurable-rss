@@ -1,19 +1,9 @@
 <?php
-
-	include_once "vendor/autoload.php";
-	\Tracy\Debugger::enable(FALSE, __DIR__ . '/logs');
-	date_default_timezone_set('Europe/Prague');
 	
-	
-	
-	/*******************************************************************************************/
-	
-	
-
-	$apiUrl = "https://www.sreality.cz/api/cs/v1/estates?";
-	$detailUrl = "https://www.sreality.cz/detail/";
 	// Google Static API Maps KEY: https://developers.google.com/maps/documentation/static-maps/?refresh=1&pli=1
-	$googleMapsApiKey = 'AIzaSyAGbOUmgMvqcRkat9DAR0n6BrQ5XcnGQdQ'; 
+	$googleMapsApiKey = ''; 
+	
+	// Comment out values you don't want and that's it:
 	$config = array(
 	
 	
@@ -376,6 +366,12 @@
 	/*******************************************************************************************/
 	
 	
+	include_once "vendor/autoload.php";
+	\Tracy\Debugger::enable(FALSE, __DIR__ . '/logs');
+	date_default_timezone_set('Europe/Prague');
+	
+	$apiUrl = "https://www.sreality.cz/api/cs/v1/estates?";
+	$detailUrl = "https://www.sreality.cz/detail/";
 	
 	function buildQuery($params) {
 		$data = array();
