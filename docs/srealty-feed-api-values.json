@@ -1,0 +1,2734 @@
+{
+    "linked_filters": {
+        "category_main_cb": {
+            "visual": "category_singlechoice",
+            "values": [{
+                "name": "Byty",
+                "value": "1"
+            }, {
+                "name": "Domy",
+                "value": "2"
+            }, {
+                "name": "Pozemky",
+                "value": "3"
+            }, {
+                "name": "Komer\u010dn\u00ed",
+                "value": "4"
+            }, {
+                "name": "Ostatn\u00ed",
+                "value": "5"
+            }],
+            "name": "Kategorie"
+        },
+        "locality_district_id": {
+            "visual": "district_multichoice",
+            "values": [{
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "\u010cesk\u00e9 Bud\u011bjovice",
+                "value": "1"
+            }, {
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "\u010cesk\u00fd Krumlov",
+                "value": "2"
+            }, {
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "Jind\u0159ich\u016fv Hradec",
+                "value": "3"
+            }, {
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "P\u00edsek",
+                "value": "4"
+            }, {
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "Prachatice",
+                "value": "5"
+            }, {
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "Strakonice",
+                "value": "6"
+            }, {
+                "show_condition": {
+                    "value": "1",
+                    "key": "locality_region_id"
+                },
+                "name": "T\u00e1bor",
+                "value": "7"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "Blansko",
+                "value": "71"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "B\u0159eclav",
+                "value": "74"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "Brno-m\u011bsto",
+                "value": "72"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "Brno-venkov",
+                "value": "73"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "Hodon\u00edn",
+                "value": "75"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "Vy\u0161kov",
+                "value": "76"
+            }, {
+                "show_condition": {
+                    "value": "14",
+                    "key": "locality_region_id"
+                },
+                "name": "Znojmo",
+                "value": "77"
+            }, {
+                "show_condition": {
+                    "value": "3",
+                    "key": "locality_region_id"
+                },
+                "name": "Cheb",
+                "value": "9"
+            }, {
+                "show_condition": {
+                    "value": "3",
+                    "key": "locality_region_id"
+                },
+                "name": "Karlovy Vary",
+                "value": "10"
+            }, {
+                "show_condition": {
+                    "value": "3",
+                    "key": "locality_region_id"
+                },
+                "name": "Sokolov",
+                "value": "16"
+            }, {
+                "show_condition": {
+                    "value": "6",
+                    "key": "locality_region_id"
+                },
+                "name": "Hradec Kr\u00e1lov\u00e9",
+                "value": "28"
+            }, {
+                "show_condition": {
+                    "value": "6",
+                    "key": "locality_region_id"
+                },
+                "name": "Ji\u010d\u00edn",
+                "value": "30"
+            }, {
+                "show_condition": {
+                    "value": "6",
+                    "key": "locality_region_id"
+                },
+                "name": "N\u00e1chod",
+                "value": "31"
+            }, {
+                "show_condition": {
+                    "value": "6",
+                    "key": "locality_region_id"
+                },
+                "name": "Rychnov nad Kn\u011b\u017enou",
+                "value": "33"
+            }, {
+                "show_condition": {
+                    "value": "6",
+                    "key": "locality_region_id"
+                },
+                "name": "Trutnov",
+                "value": "36"
+            }, {
+                "show_condition": {
+                    "value": "5",
+                    "key": "locality_region_id"
+                },
+                "name": "\u010cesk\u00e1 L\u00edpa",
+                "value": "18"
+            }, {
+                "show_condition": {
+                    "value": "5",
+                    "key": "locality_region_id"
+                },
+                "name": "Jablonec nad Nisou",
+                "value": "21"
+            }, {
+                "show_condition": {
+                    "value": "5",
+                    "key": "locality_region_id"
+                },
+                "name": "Liberec",
+                "value": "22"
+            }, {
+                "show_condition": {
+                    "value": "5",
+                    "key": "locality_region_id"
+                },
+                "name": "Semily",
+                "value": "34"
+            }, {
+                "show_condition": {
+                    "value": "12",
+                    "key": "locality_region_id"
+                },
+                "name": "Brunt\u00e1l",
+                "value": "60"
+            }, {
+                "show_condition": {
+                    "value": "12",
+                    "key": "locality_region_id"
+                },
+                "name": "Fr\u00fddek-M\u00edstek",
+                "value": "61"
+            }, {
+                "show_condition": {
+                    "value": "12",
+                    "key": "locality_region_id"
+                },
+                "name": "Karvin\u00e1",
+                "value": "62"
+            }, {
+                "show_condition": {
+                    "value": "12",
+                    "key": "locality_region_id"
+                },
+                "name": "Nov\u00fd Ji\u010d\u00edn",
+                "value": "63"
+            }, {
+                "show_condition": {
+                    "value": "12",
+                    "key": "locality_region_id"
+                },
+                "name": "Opava",
+                "value": "64"
+            }, {
+                "show_condition": {
+                    "value": "12",
+                    "key": "locality_region_id"
+                },
+                "name": "Ostrava-m\u011bsto",
+                "value": "65"
+            }, {
+                "show_condition": {
+                    "value": "8",
+                    "key": "locality_region_id"
+                },
+                "name": "Jesen\u00edk",
+                "value": "46"
+            }, {
+                "show_condition": {
+                    "value": "8",
+                    "key": "locality_region_id"
+                },
+                "name": "Olomouc",
+                "value": "42"
+            }, {
+                "show_condition": {
+                    "value": "8",
+                    "key": "locality_region_id"
+                },
+                "name": "P\u0159erov",
+                "value": "43"
+            }, {
+                "show_condition": {
+                    "value": "8",
+                    "key": "locality_region_id"
+                },
+                "name": "Prost\u011bjov",
+                "value": "40"
+            }, {
+                "show_condition": {
+                    "value": "8",
+                    "key": "locality_region_id"
+                },
+                "name": "\u0160umperk",
+                "value": "44"
+            }, {
+                "show_condition": {
+                    "value": "7",
+                    "key": "locality_region_id"
+                },
+                "name": "Chrudim",
+                "value": "29"
+            }, {
+                "show_condition": {
+                    "value": "7",
+                    "key": "locality_region_id"
+                },
+                "name": "Pardubice",
+                "value": "32"
+            }, {
+                "show_condition": {
+                    "value": "7",
+                    "key": "locality_region_id"
+                },
+                "name": "Svitavy",
+                "value": "35"
+            }, {
+                "show_condition": {
+                    "value": "7",
+                    "key": "locality_region_id"
+                },
+                "name": "\u00dast\u00ed nad Orlic\u00ed",
+                "value": "37"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Doma\u017elice",
+                "value": "8"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Klatovy",
+                "value": "11"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Plze\u0148-jih",
+                "value": "13"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Plze\u0148-m\u011bsto",
+                "value": "12"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Plze\u0148-sever",
+                "value": "14"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Rokycany",
+                "value": "15"
+            }, {
+                "show_condition": {
+                    "value": "2",
+                    "key": "locality_region_id"
+                },
+                "name": "Tachov",
+                "value": "17"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 1",
+                "value": "5001"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 2",
+                "value": "5002"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 3",
+                "value": "5003"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 4",
+                "value": "5004"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 5",
+                "value": "5005"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 6",
+                "value": "5006"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 7",
+                "value": "5007"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 8",
+                "value": "5008"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 9",
+                "value": "5009"
+            }, {
+                "show_condition": {
+                    "value": "10",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha 10",
+                "value": "5010"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Bene\u0161ov",
+                "value": "48"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Beroun",
+                "value": "49"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Kladno",
+                "value": "50"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Kol\u00edn",
+                "value": "51"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Kutn\u00e1 Hora",
+                "value": "52"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "M\u011bln\u00edk",
+                "value": "54"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Mlad\u00e1 Boleslav",
+                "value": "53"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Nymburk",
+                "value": "55"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha-v\u00fdchod",
+                "value": "56"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Praha-z\u00e1pad",
+                "value": "57"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "P\u0159\u00edbram",
+                "value": "58"
+            }, {
+                "show_condition": {
+                    "value": "11",
+                    "key": "locality_region_id"
+                },
+                "name": "Rakovn\u00edk",
+                "value": "59"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "Chomutov",
+                "value": "20"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "D\u011b\u010d\u00edn",
+                "value": "19"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "Litom\u011b\u0159ice",
+                "value": "23"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "Louny",
+                "value": "24"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "Most",
+                "value": "25"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "Teplice",
+                "value": "26"
+            }, {
+                "show_condition": {
+                    "value": "4",
+                    "key": "locality_region_id"
+                },
+                "name": "\u00dast\u00ed nad Labem",
+                "value": "27"
+            }, {
+                "show_condition": {
+                    "value": "13",
+                    "key": "locality_region_id"
+                },
+                "name": "Havl\u00ed\u010dk\u016fv Brod",
+                "value": "66"
+            }, {
+                "show_condition": {
+                    "value": "13",
+                    "key": "locality_region_id"
+                },
+                "name": "Jihlava",
+                "value": "67"
+            }, {
+                "show_condition": {
+                    "value": "13",
+                    "key": "locality_region_id"
+                },
+                "name": "Pelh\u0159imov",
+                "value": "68"
+            }, {
+                "show_condition": {
+                    "value": "13",
+                    "key": "locality_region_id"
+                },
+                "name": "T\u0159eb\u00ed\u010d",
+                "value": "69"
+            }, {
+                "show_condition": {
+                    "value": "13",
+                    "key": "locality_region_id"
+                },
+                "name": "\u017d\u010f\u00e1r nad S\u00e1zavou",
+                "value": "70"
+            }, {
+                "show_condition": {
+                    "value": "9",
+                    "key": "locality_region_id"
+                },
+                "name": "Krom\u011b\u0159\u00ed\u017e",
+                "value": "39"
+            }, {
+                "show_condition": {
+                    "value": "9",
+                    "key": "locality_region_id"
+                },
+                "name": "Uhersk\u00e9 Hradi\u0161t\u011b",
+                "value": "41"
+            }, {
+                "show_condition": {
+                    "value": "9",
+                    "key": "locality_region_id"
+                },
+                "name": "Vset\u00edn",
+                "value": "45"
+            }, {
+                "show_condition": {
+                    "value": "9",
+                    "key": "locality_region_id"
+                },
+                "name": "Zl\u00edn",
+                "value": "38"
+            }],
+            "name": "Okres"
+        },
+        "distance": {
+            "visual": "singlechoice",
+            "values": [{
+                "name": "nezad\u00e1no",
+                "value": "0"
+            }, {
+                "name": "0,5 km",
+                "value": "0.5"
+            }, {
+                "name": "1 km",
+                "value": "1"
+            }, {
+                "name": "5 km",
+                "value": "5"
+            }, {
+                "name": "10 km",
+                "value": "10"
+            }, {
+                "name": "25 km",
+                "value": "25"
+            }],
+            "name": "Hledat v okol\u00ed"
+        },
+        "special_price_switch": {
+            "visual": "switch",
+            "values": [{
+                "name": "",
+                "value": "1"
+            }],
+            "name": "za m\u00b2"
+        },
+        "locality_country_id": {
+            "visual": "singlechoice",
+            "values": [{
+                "name": "V\u0161e",
+                "value": "10001"
+            }, {
+                "name": "\u010cesk\u00e1 republika",
+                "value": "112"
+            }, {
+                "separator_after": true,
+                "name": "V zahrani\u010d\u00ed",
+                "value": "10000"
+            }, {
+                "name": "Bulharsko",
+                "value": "100"
+            }, {
+                "name": "\u010cern\u00e1 Hora",
+                "value": "499"
+            }, {
+                "name": "Chorvatsko",
+                "value": "191"
+            }, {
+                "name": "Egypt",
+                "value": "818"
+            }, {
+                "name": "Finsko",
+                "value": "246"
+            }, {
+                "name": "Francie",
+                "value": "250"
+            }, {
+                "name": "It\u00e1lie",
+                "value": "380"
+            }, {
+                "name": "Kapverdy",
+                "value": "132"
+            }, {
+                "name": "Kypr",
+                "value": "196"
+            }, {
+                "name": "Mexiko",
+                "value": "484"
+            }, {
+                "name": "N\u011bmecko",
+                "value": "276"
+            }, {
+                "name": "Polsko",
+                "value": "616"
+            }, {
+                "name": "Portugalsko",
+                "value": "620"
+            }, {
+                "name": "Rakousko",
+                "value": "40"
+            }, {
+                "name": "\u0158ecko",
+                "value": "300"
+            }, {
+                "name": "Rusko",
+                "value": "643"
+            }, {
+                "name": "Slovensk\u00e1 Republika",
+                "value": "214"
+            }, {
+                "name": "\u0160pan\u011blsko",
+                "value": "724"
+            }, {
+                "name": "Spojen\u00e9 arabsk\u00e9 emir\u00e1ty",
+                "value": "784"
+            }, {
+                "name": "Spojen\u00e9 st\u00e1ty americk\u00e9",
+                "value": "840"
+            }, {
+                "name": "\u0160v\u00fdcarsko",
+                "value": "756"
+            }],
+            "name": "St\u00e1t"
+        },
+        "czk_price_summary_order2": {
+            "visual": "interval",
+            "values": [{
+                "name": "Neomezeno",
+                "value": "0"
+            }, {
+                "name": "Neomezeno",
+                "value": "10000000000"
+            }],
+            "name": "Cena"
+        },
+        "estate_age": {
+            "visual": "singlechoice",
+            "values": [{
+                "name": "bez omezen\u00ed",
+                "value": "0"
+            }, {
+                "name": "den",
+                "value": "2"
+            }, {
+                "name": "posledn\u00edch 7 dn\u00ed",
+                "value": "8"
+            }, {
+                "name": "posledn\u00edch 30 dn\u00ed",
+                "value": "31"
+            }],
+            "name": "St\u00e1\u0159\u00ed inzer\u00e1tu"
+        },
+        "region": {
+            "visual": "localitysearch",
+            "values": [],
+            "name": "Up\u0159esnit lokalitu"
+        },
+        "locality_region_id": {
+            "visual": "region_multichoice",
+            "values": [{
+                "name": "Jiho\u010desk\u00fd",
+                "value": "1"
+            }, {
+                "name": "Jihomoravsk\u00fd",
+                "value": "14"
+            }, {
+                "name": "Karlovarsk\u00fd",
+                "value": "3"
+            }, {
+                "name": "Kr\u00e1lov\u00e9hradeck\u00fd",
+                "value": "6"
+            }, {
+                "name": "Libereck\u00fd",
+                "value": "5"
+            }, {
+                "name": "Moravskoslezsk\u00fd",
+                "value": "12"
+            }, {
+                "name": "Olomouck\u00fd",
+                "value": "8"
+            }, {
+                "name": "Pardubick\u00fd",
+                "value": "7"
+            }, {
+                "name": "Plze\u0148sk\u00fd",
+                "value": "2"
+            }, {
+                "name": "Praha",
+                "value": "10"
+            }, {
+                "name": "St\u0159edo\u010desk\u00fd",
+                "value": "11"
+            }, {
+                "name": "\u00dasteck\u00fd",
+                "value": "4"
+            }, {
+                "name": "Vyso\u010dina",
+                "value": "13"
+            }, {
+                "name": "Zl\u00ednsk\u00fd",
+                "value": "9"
+            }],
+            "name": "V\u00fdb\u011br lokality"
+        },
+        "category_type_cb": {
+            "visual": "type_singlechoice",
+            "values": [{
+                "name": "Prodej",
+                "value": "1"
+            }, {
+                "name": "Pron\u00e1jem",
+                "value": "2"
+            }, {
+                "name": "Dra\u017eby",
+                "value": "3"
+            }],
+            "name": "Typ"
+        }
+    },
+    "_links": {
+        "count": {
+            "href": "/cs/v1/estates/count",
+            "title": "Estate count"
+        },
+        "self": {
+            "profile": "/filters/doc",
+            "href": "/cs/v1/filters",
+            "title": "Estate filters"
+        }
+    },
+    "logged_in": true,
+    "filters": {
+        "1": {
+            "1": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "1+kk",
+                    "value": "2"
+                }, {
+                    "name": "1+1",
+                    "value": "3"
+                }, {
+                    "name": "2+kk",
+                    "value": "4"
+                }, {
+                    "name": "2+1",
+                    "value": "5"
+                }, {
+                    "name": "3+kk",
+                    "value": "6"
+                }, {
+                    "name": "3+1",
+                    "value": "7"
+                }, {
+                    "name": "4+kk",
+                    "value": "8"
+                }, {
+                    "name": "4+1",
+                    "value": "9"
+                }, {
+                    "name": "5+kk",
+                    "value": "10"
+                }, {
+                    "name": "5+1",
+                    "value": "11"
+                }, {
+                    "name": "6 a v\u00edce",
+                    "value": "12"
+                }, {
+                    "name": "Atypick\u00fd",
+                    "value": "16"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Velmi dobr\u00fd",
+                    "value": "1"
+                }, {
+                    "name": "Dobr\u00fd",
+                    "value": "2"
+                }, {
+                    "name": "\u0160patn\u00fd",
+                    "value": "3"
+                }, {
+                    "name": "Ve v\u00fdstavb\u011b",
+                    "value": "4"
+                }, {
+                    "name": "Developersk\u00e9 projekty",
+                    "value": "5"
+                }, {
+                    "name": "Novostavba",
+                    "value": "6"
+                }, {
+                    "name": "K demolici",
+                    "value": "7"
+                }, {
+                    "name": "P\u0159ed rekonstrukc\u00ed",
+                    "value": "8"
+                }, {
+                    "name": "Po rekonstrukci",
+                    "value": "9"
+                }],
+                "name": "Stav objektu",
+                "key": "building_condition"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "balcony",
+                        "name": "Balk\u00f3n",
+                        "value": "3090"
+                    }, {
+                        "key": "terrace",
+                        "name": "Terasa",
+                        "value": "3110"
+                    }, {
+                        "key": "loggia",
+                        "name": "Lod\u017eie",
+                        "value": "3100"
+                    }, {
+                        "key": "cellar",
+                        "name": "Sklep",
+                        "value": "3120"
+                    }],
+                    "name": "",
+                    "key": "something_more1"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "elevator",
+                        "name": "V\u00fdtah",
+                        "value": "3310"
+                    }, {
+                        "key": "easy_access",
+                        "name": "Bezbari\u00e9rov\u00fd",
+                        "value": "1820"
+                    }],
+                    "name": "",
+                    "key": "something_more3"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "key": "panel",
+                    "name": "Panel",
+                    "value": "1"
+                }, {
+                    "key": "brick",
+                    "name": "Cihla",
+                    "value": "2"
+                }, {
+                    "key": "other_sigular",
+                    "name": "Ostatn\u00ed",
+                    "value": "3"
+                }],
+                "name": "Stavba",
+                "key": "building_type_search"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Osobn\u00ed",
+                    "value": "1"
+                }, {
+                    "name": "Dru\u017estevn\u00ed",
+                    "value": "2"
+                }, {
+                    "name": "St\u00e1tn\u00ed/obecn\u00ed",
+                    "value": "3"
+                }],
+                "name": "Vlastnictv\u00ed",
+                "key": "ownership"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "100"
+                }],
+                "name": "Patro",
+                "key": "floor_number"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "2": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "1 pokoj",
+                    "value": "1"
+                }, {
+                    "name": "2 pokoje",
+                    "value": "2"
+                }, {
+                    "name": "3 pokoje",
+                    "value": "3"
+                }, {
+                    "name": "4 pokoje",
+                    "value": "4"
+                }, {
+                    "name": "5 a v\u00edce pokoj\u016f",
+                    "value": "5"
+                }, {
+                    "name": "Atypick\u00fd",
+                    "value": "6"
+                }],
+                "name": "Velikost",
+                "key": "room_count_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Rodinn\u00fd",
+                    "value": "37"
+                }, {
+                    "name": "Vila",
+                    "value": "39"
+                }, {
+                    "name": "Chalupa",
+                    "value": "43"
+                }, {
+                    "name": "Chata",
+                    "value": "33"
+                }, {
+                    "name": "Na kl\u00ed\u010d",
+                    "value": "40"
+                }, {
+                    "name": "Zem\u011bd\u011blsk\u00e1 usedlost",
+                    "value": "44"
+                }, {
+                    "name": "Pam\u00e1tka/jin\u00e9",
+                    "value": "35"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Velmi dobr\u00fd",
+                    "value": "1"
+                }, {
+                    "name": "Dobr\u00fd",
+                    "value": "2"
+                }, {
+                    "name": "\u0160patn\u00fd",
+                    "value": "3"
+                }, {
+                    "name": "Ve v\u00fdstavb\u011b",
+                    "value": "4"
+                }, {
+                    "name": "Developersk\u00e9 projekty",
+                    "value": "5"
+                }, {
+                    "name": "Novostavba",
+                    "value": "6"
+                }, {
+                    "name": "K demolici",
+                    "value": "7"
+                }, {
+                    "name": "P\u0159ed rekonstrukc\u00ed",
+                    "value": "8"
+                }, {
+                    "name": "Po rekonstrukci",
+                    "value": "9"
+                }],
+                "name": "Stav objektu",
+                "key": "building_condition"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "low_energy",
+                        "name": "N\u00edzkoenergetick\u00fd",
+                        "value": "2123"
+                    }, {
+                        "key": "wooden",
+                        "name": "D\u0159evostavba",
+                        "value": "100111"
+                    }],
+                    "name": "",
+                    "key": "something_more4"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "name": "P\u0159\u00edzemn\u00ed",
+                        "value": "1"
+                    }, {
+                        "name": "Patrov\u00fd",
+                        "value": "2"
+                    }],
+                    "name": "Typ domu",
+                    "key": "object_type"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "name": "Samostatn\u00fd",
+                        "value": "1"
+                    }, {
+                        "name": "V bloku/\u0159adov\u00fd",
+                        "value": "2"
+                    }],
+                    "name": "",
+                    "key": "object_kind_search"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }, {
+                        "key": "basin",
+                        "name": "Baz\u00e9n",
+                        "value": "3130"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes2"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "Plocha pozemku",
+                "key": "estate_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "3": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Bydlen\u00ed",
+                    "value": "19"
+                }, {
+                    "name": "Komer\u010dn\u00ed",
+                    "value": "18"
+                }, {
+                    "name": "Pole",
+                    "value": "20"
+                }, {
+                    "name": "Louky",
+                    "value": "22"
+                }, {
+                    "name": "Lesy",
+                    "value": "21"
+                }, {
+                    "name": "Rybn\u00edky",
+                    "value": "46"
+                }, {
+                    "name": "Sady/vinice",
+                    "value": "48"
+                }, {
+                    "name": "Zahrady",
+                    "value": "23"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "24"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "special_price_switch"
+                }],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "Plocha pozemku",
+                "key": "estate_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "4": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Kancel\u00e1\u0159e",
+                    "value": "25"
+                }, {
+                    "name": "Sklady",
+                    "value": "26"
+                }, {
+                    "name": "V\u00fdroba",
+                    "value": "27"
+                }, {
+                    "name": "Obchodn\u00ed prostory",
+                    "value": "28"
+                }, {
+                    "name": "Ubytov\u00e1n\u00ed",
+                    "value": "29"
+                }, {
+                    "name": "Restaurace",
+                    "value": "30"
+                }, {
+                    "name": "Zem\u011bd\u011blsk\u00fd",
+                    "value": "31"
+                }, {
+                    "name": "\u010cin\u017eovn\u00ed d\u016fm",
+                    "value": "38"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "32"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Velmi dobr\u00fd",
+                    "value": "1"
+                }, {
+                    "name": "Dobr\u00fd",
+                    "value": "2"
+                }, {
+                    "name": "\u0160patn\u00fd",
+                    "value": "3"
+                }, {
+                    "name": "Ve v\u00fdstavb\u011b",
+                    "value": "4"
+                }, {
+                    "name": "Projekt",
+                    "value": "5"
+                }, {
+                    "name": "Novostavba",
+                    "value": "6"
+                }, {
+                    "name": "K demolici",
+                    "value": "7"
+                }, {
+                    "name": "P\u0159ed rekonstrukc\u00ed",
+                    "value": "8"
+                }, {
+                    "name": "Po rekonstrukci",
+                    "value": "9"
+                }],
+                "name": "Stav objektu",
+                "key": "building_condition"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "special_price_switch"
+                }],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [],
+                    "name": "",
+                    "key": "something_more1"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }, {
+                    "visual": "multichoice",
+                    "values": [],
+                    "name": "",
+                    "key": "something_more3"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "5": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Gar\u00e1\u017e",
+                    "value": "34"
+                }, {
+                    "name": "Gar\u00e1\u017eov\u00e9 st\u00e1n\u00ed",
+                    "value": "52"
+                }, {
+                    "name": "Mobilheim",
+                    "value": "53"
+                }, {
+                    "name": "Vinn\u00fd sklep",
+                    "value": "50"
+                }, {
+                    "name": "P\u016fdn\u00ed prostor",
+                    "value": "51"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "36"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }]
+        },
+        "2": {
+            "1": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Pokoj",
+                    "value": "47"
+                }, {
+                    "name": "1+kk",
+                    "value": "2"
+                }, {
+                    "name": "1+1",
+                    "value": "3"
+                }, {
+                    "name": "2+kk",
+                    "value": "4"
+                }, {
+                    "name": "2+1",
+                    "value": "5"
+                }, {
+                    "name": "3+kk",
+                    "value": "6"
+                }, {
+                    "name": "3+1",
+                    "value": "7"
+                }, {
+                    "name": "4+kk",
+                    "value": "8"
+                }, {
+                    "name": "4+1",
+                    "value": "9"
+                }, {
+                    "name": "5+kk",
+                    "value": "10"
+                }, {
+                    "name": "5+1",
+                    "value": "11"
+                }, {
+                    "name": "6 a v\u00edce",
+                    "value": "12"
+                }, {
+                    "name": "Atypick\u00fd",
+                    "value": "16"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Velmi dobr\u00fd",
+                    "value": "1"
+                }, {
+                    "name": "Dobr\u00fd",
+                    "value": "2"
+                }, {
+                    "name": "\u0160patn\u00fd",
+                    "value": "3"
+                }, {
+                    "name": "Ve v\u00fdstavb\u011b",
+                    "value": "4"
+                }, {
+                    "name": "Developersk\u00e9 projekty",
+                    "value": "5"
+                }, {
+                    "name": "Novostavba",
+                    "value": "6"
+                }, {
+                    "name": "K demolici",
+                    "value": "7"
+                }, {
+                    "name": "P\u0159ed rekonstrukc\u00ed",
+                    "value": "8"
+                }, {
+                    "name": "Po rekonstrukci",
+                    "value": "9"
+                }],
+                "name": "Stav objektu",
+                "key": "building_condition"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "balcony",
+                        "name": "Balk\u00f3n",
+                        "value": "3090"
+                    }, {
+                        "key": "terrace",
+                        "name": "Terasa",
+                        "value": "3110"
+                    }, {
+                        "key": "loggia",
+                        "name": "Lod\u017eie",
+                        "value": "3100"
+                    }, {
+                        "key": "cellar",
+                        "name": "Sklep",
+                        "value": "3120"
+                    }],
+                    "name": "",
+                    "key": "something_more1"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "elevator",
+                        "name": "V\u00fdtah",
+                        "value": "3310"
+                    }, {
+                        "key": "easy_access",
+                        "name": "Bezbari\u00e9rov\u00fd",
+                        "value": "1820"
+                    }],
+                    "name": "",
+                    "key": "something_more3"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "key": "panel",
+                    "name": "Panel",
+                    "value": "1"
+                }, {
+                    "key": "brick",
+                    "name": "Cihla",
+                    "value": "2"
+                }, {
+                    "key": "other_sigular",
+                    "name": "Ostatn\u00ed",
+                    "value": "3"
+                }],
+                "name": "Stavba",
+                "key": "building_type_search"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Osobn\u00ed",
+                    "value": "1"
+                }, {
+                    "name": "Dru\u017estevn\u00ed",
+                    "value": "2"
+                }, {
+                    "name": "St\u00e1tn\u00ed/obecn\u00ed",
+                    "value": "3"
+                }],
+                "name": "Vlastnictv\u00ed",
+                "key": "ownership"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Ano",
+                    "value": "1"
+                }, {
+                    "name": "Ne",
+                    "value": "2"
+                }, {
+                    "name": "\u010c\u00e1ste\u010dn\u011b",
+                    "value": "3"
+                }],
+                "name": "Vybaven\u00ed",
+                "key": "furnished"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "100"
+                }],
+                "name": "Patro",
+                "key": "floor_number"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "2": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "1 pokoj",
+                    "value": "1"
+                }, {
+                    "name": "2 pokoje",
+                    "value": "2"
+                }, {
+                    "name": "3 pokoje",
+                    "value": "3"
+                }, {
+                    "name": "4 pokoje",
+                    "value": "4"
+                }, {
+                    "name": "5 a v\u00edce pokoj\u016f",
+                    "value": "5"
+                }, {
+                    "name": "Atypick\u00fd",
+                    "value": "6"
+                }],
+                "name": "Velikost",
+                "key": "room_count_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Rodinn\u00fd",
+                    "value": "37"
+                }, {
+                    "name": "Vila",
+                    "value": "39"
+                }, {
+                    "name": "Chalupa",
+                    "value": "43"
+                }, {
+                    "name": "Chata",
+                    "value": "33"
+                }, {
+                    "name": "Na kl\u00ed\u010d",
+                    "value": "40"
+                }, {
+                    "name": "Zem\u011bd\u011blsk\u00e1 usedlost",
+                    "value": "44"
+                }, {
+                    "name": "Pam\u00e1tka/jin\u00e9",
+                    "value": "35"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Velmi dobr\u00fd",
+                    "value": "1"
+                }, {
+                    "name": "Dobr\u00fd",
+                    "value": "2"
+                }, {
+                    "name": "\u0160patn\u00fd",
+                    "value": "3"
+                }, {
+                    "name": "Ve v\u00fdstavb\u011b",
+                    "value": "4"
+                }, {
+                    "name": "Developersk\u00e9 projekty",
+                    "value": "5"
+                }, {
+                    "name": "Novostavba",
+                    "value": "6"
+                }, {
+                    "name": "K demolici",
+                    "value": "7"
+                }, {
+                    "name": "P\u0159ed rekonstrukc\u00ed",
+                    "value": "8"
+                }, {
+                    "name": "Po rekonstrukci",
+                    "value": "9"
+                }],
+                "name": "Stav objektu",
+                "key": "building_condition"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "low_energy",
+                        "name": "N\u00edzkoenergetick\u00fd",
+                        "value": "2123"
+                    }, {
+                        "key": "wooden",
+                        "name": "D\u0159evostavba",
+                        "value": "100111"
+                    }],
+                    "name": "",
+                    "key": "something_more4"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "name": "P\u0159\u00edzemn\u00ed",
+                        "value": "1"
+                    }, {
+                        "name": "Patrov\u00fd",
+                        "value": "2"
+                    }],
+                    "name": "Typ domu",
+                    "key": "object_type"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "name": "Samostatn\u00fd",
+                        "value": "1"
+                    }, {
+                        "name": "V bloku/\u0159adov\u00fd",
+                        "value": "2"
+                    }],
+                    "name": "",
+                    "key": "object_kind_search"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }, {
+                        "key": "basin",
+                        "name": "Baz\u00e9n",
+                        "value": "3130"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes2"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Ano",
+                    "value": "1"
+                }, {
+                    "name": "Ne",
+                    "value": "2"
+                }, {
+                    "name": "\u010c\u00e1ste\u010dn\u011b",
+                    "value": "3"
+                }],
+                "name": "Vybaven\u00ed",
+                "key": "furnished"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "Plocha pozemku",
+                "key": "estate_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "3": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Bydlen\u00ed",
+                    "value": "19"
+                }, {
+                    "name": "Komer\u010dn\u00ed",
+                    "value": "18"
+                }, {
+                    "name": "Pole",
+                    "value": "20"
+                }, {
+                    "name": "Louky",
+                    "value": "22"
+                }, {
+                    "name": "Lesy",
+                    "value": "21"
+                }, {
+                    "name": "Rybn\u00edky",
+                    "value": "46"
+                }, {
+                    "name": "Sady/vinice",
+                    "value": "48"
+                }, {
+                    "name": "Zahrady",
+                    "value": "23"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "24"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "special_price_switch"
+                }],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "Plocha pozemku",
+                "key": "estate_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "4": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Kancel\u00e1\u0159e",
+                    "value": "25"
+                }, {
+                    "name": "Sklady",
+                    "value": "26"
+                }, {
+                    "name": "V\u00fdroba",
+                    "value": "27"
+                }, {
+                    "name": "Obchodn\u00ed prostory",
+                    "value": "28"
+                }, {
+                    "name": "Ubytov\u00e1n\u00ed",
+                    "value": "29"
+                }, {
+                    "name": "Restaurace",
+                    "value": "30"
+                }, {
+                    "name": "Zem\u011bd\u011blsk\u00fd",
+                    "value": "31"
+                }, {
+                    "name": "\u010cin\u017eovn\u00ed d\u016fm",
+                    "value": "38"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "32"
+                }, {
+                    "name": "Virtu\u00e1ln\u00ed kancel\u00e1\u0159",
+                    "value": "49"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Velmi dobr\u00fd",
+                    "value": "1"
+                }, {
+                    "name": "Dobr\u00fd",
+                    "value": "2"
+                }, {
+                    "name": "\u0160patn\u00fd",
+                    "value": "3"
+                }, {
+                    "name": "Ve v\u00fdstavb\u011b",
+                    "value": "4"
+                }, {
+                    "name": "Projekt",
+                    "value": "5"
+                }, {
+                    "name": "Novostavba",
+                    "value": "6"
+                }, {
+                    "name": "K demolici",
+                    "value": "7"
+                }, {
+                    "name": "P\u0159ed rekonstrukc\u00ed",
+                    "value": "8"
+                }, {
+                    "name": "Po rekonstrukci",
+                    "value": "9"
+                }],
+                "name": "Stav objektu",
+                "key": "building_condition"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "special_price_switch"
+                }],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [],
+                    "name": "",
+                    "key": "something_more1"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }, {
+                    "visual": "multichoice",
+                    "values": [],
+                    "name": "",
+                    "key": "something_more3"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "5": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Gar\u00e1\u017e",
+                    "value": "34"
+                }, {
+                    "name": "Gar\u00e1\u017eov\u00e9 st\u00e1n\u00ed",
+                    "value": "52"
+                }, {
+                    "name": "Mobilheim",
+                    "value": "53"
+                }, {
+                    "name": "Vinn\u00fd sklep",
+                    "value": "50"
+                }, {
+                    "name": "P\u016fdn\u00ed prostor",
+                    "value": "51"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "36"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }]
+        },
+        "3": {
+            "1": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "1+kk",
+                    "value": "2"
+                }, {
+                    "name": "1+1",
+                    "value": "3"
+                }, {
+                    "name": "2+kk",
+                    "value": "4"
+                }, {
+                    "name": "2+1",
+                    "value": "5"
+                }, {
+                    "name": "3+kk",
+                    "value": "6"
+                }, {
+                    "name": "3+1",
+                    "value": "7"
+                }, {
+                    "name": "4+kk",
+                    "value": "8"
+                }, {
+                    "name": "4+1",
+                    "value": "9"
+                }, {
+                    "name": "5+kk",
+                    "value": "10"
+                }, {
+                    "name": "5+1",
+                    "value": "11"
+                }, {
+                    "name": "6 a v\u00edce",
+                    "value": "12"
+                }, {
+                    "name": "Atypick\u00fd",
+                    "value": "16"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "2": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "1 pokoj",
+                    "value": "1"
+                }, {
+                    "name": "2 pokoje",
+                    "value": "2"
+                }, {
+                    "name": "3 pokoje",
+                    "value": "3"
+                }, {
+                    "name": "4 pokoje",
+                    "value": "4"
+                }, {
+                    "name": "5 a v\u00edce pokoj\u016f",
+                    "value": "5"
+                }, {
+                    "name": "Atypick\u00fd",
+                    "value": "6"
+                }],
+                "name": "Velikost",
+                "key": "room_count_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Rodinn\u00fd",
+                    "value": "37"
+                }, {
+                    "name": "Vila",
+                    "value": "39"
+                }, {
+                    "name": "Chalupa",
+                    "value": "43"
+                }, {
+                    "name": "Chata",
+                    "value": "33"
+                }, {
+                    "name": "Na kl\u00ed\u010d",
+                    "value": "40"
+                }, {
+                    "name": "Zem\u011bd\u011blsk\u00e1 usedlost",
+                    "value": "44"
+                }, {
+                    "name": "Pam\u00e1tka/jin\u00e9",
+                    "value": "35"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "3": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Bydlen\u00ed",
+                    "value": "19"
+                }, {
+                    "name": "Komer\u010dn\u00ed",
+                    "value": "18"
+                }, {
+                    "name": "Pole",
+                    "value": "20"
+                }, {
+                    "name": "Louky",
+                    "value": "22"
+                }, {
+                    "name": "Lesy",
+                    "value": "21"
+                }, {
+                    "name": "Rybn\u00edky",
+                    "value": "46"
+                }, {
+                    "name": "Sady/vinice",
+                    "value": "48"
+                }, {
+                    "name": "Zahrady",
+                    "value": "23"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "24"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "Plocha pozemku",
+                "key": "estate_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "4": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Kancel\u00e1\u0159e",
+                    "value": "25"
+                }, {
+                    "name": "Sklady",
+                    "value": "26"
+                }, {
+                    "name": "V\u00fdroba",
+                    "value": "27"
+                }, {
+                    "name": "Obchodn\u00ed prostory",
+                    "value": "28"
+                }, {
+                    "name": "Ubytov\u00e1n\u00ed",
+                    "value": "29"
+                }, {
+                    "name": "Restaurace",
+                    "value": "30"
+                }, {
+                    "name": "Zem\u011bd\u011blsk\u00fd",
+                    "value": "31"
+                }, {
+                    "name": "\u010cin\u017eovn\u00ed d\u016fm",
+                    "value": "38"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "32"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "multichoice_group",
+                "values": [{
+                    "visual": "multichoice",
+                    "values": [],
+                    "name": "",
+                    "key": "something_more1"
+                }, {
+                    "visual": "multichoice",
+                    "values": [{
+                        "key": "parking_lots",
+                        "name": "Parkov\u00e1n\u00ed",
+                        "value": "3140"
+                    }, {
+                        "key": "garage",
+                        "name": "Gar\u00e1\u017e",
+                        "value": "3150"
+                    }],
+                    "name": "",
+                    "key": "something_more2"
+                }, {
+                    "visual": "multichoice",
+                    "values": [],
+                    "name": "",
+                    "key": "something_more3"
+                }],
+                "name": "N\u011bco nav\u00edc",
+                "key": "special_attributes"
+            }, {
+                "visual": "interval",
+                "values": [{
+                    "name": "Neomezeno",
+                    "value": "0"
+                }, {
+                    "name": "Neomezeno",
+                    "value": "10000000000"
+                }],
+                "name": "U\u017eitn\u00e1 plocha",
+                "key": "usable_area"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }],
+            "5": [{
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_main_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "category_type_cb"
+            }, {
+                "visual": "multichoice",
+                "values": [{
+                    "name": "Gar\u00e1\u017e",
+                    "value": "34"
+                }, {
+                    "name": "Gar\u00e1\u017eov\u00e9 st\u00e1n\u00ed",
+                    "value": "52"
+                }, {
+                    "name": "Mobilheim",
+                    "value": "53"
+                }, {
+                    "name": "Vinn\u00fd sklep",
+                    "value": "50"
+                }, {
+                    "name": "P\u016fdn\u00ed prostor",
+                    "value": "51"
+                }, {
+                    "name": "Ostatn\u00ed",
+                    "value": "36"
+                }],
+                "name": "Typ",
+                "key": "category_sub_cb"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_country_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_region_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "locality_district_id"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [{
+                    "visual": "placeholder",
+                    "inline_placeholders": [],
+                    "key": "distance"
+                }],
+                "key": "region"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "czk_price_summary_order2"
+            }, {
+                "visual": "placeholder",
+                "inline_placeholders": [],
+                "key": "estate_age"
+            }]
+        }
+    },
+    "blended": [{
+        "type": "category_main_cb",
+        "name": "Byty",
+        "value": "1"
+    }, {
+        "type": "category_main_cb",
+        "name": "Domy",
+        "value": "2"
+    }, {
+        "result_size": 385,
+        "subtitle": "Pl\u00e1nov\u00e1 v\u00fdstavba dom\u016f a byt\u016f",
+        "title": "Projekty",
+        "stack_id": 9501,
+        "_links": {
+            "self": {
+                "profile": "/projects/doc",
+                "href": "/cs/v1/projects",
+                "title": "projects"
+            }
+        },
+        "type": "projects"
+    }, {
+        "type": "category_main_cb",
+        "name": "Pozemky",
+        "value": "3"
+    }, {
+        "type": "category_main_cb",
+        "name": "Komer\u010dn\u00ed",
+        "value": "4"
+    }, {
+        "type": "category_main_cb",
+        "name": "Ostatn\u00ed",
+        "value": "5"
+    }]
+}
