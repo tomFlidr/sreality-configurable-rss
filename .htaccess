@@ -1,0 +1,16 @@
+# disable directory listing
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	
+	# basic zend-framework setup see: http://framework.zend.com/manual/en/zend.controller.html
+	RewriteCond %{REQUEST_FILENAME} -s [OR]
+	RewriteCond %{REQUEST_FILENAME} -l [OR]
+	RewriteCond %{REQUEST_FILENAME} -f
+	RewriteRule ^(.*)$ $1 [NC,L]
+	
+	RewriteRule ^.*$ index.php [NC,L]
+
+</IfModule>

@@ -11,7 +11,7 @@
   <title><xsl:value-of select="title"/></title>
   <meta name="MSSmartTagsPreventParsing" content="TRUE" />
   <meta http-equiv="imagetoolbar" content="no" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="bin/style.css" />
   <script>
     function doLoad() {
       if (navigator.userAgent.toLowerCase().indexOf("msie") > -1) return;
