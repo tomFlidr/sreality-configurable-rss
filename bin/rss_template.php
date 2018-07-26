@@ -2,7 +2,7 @@
 	echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
 	echo '<?xml-stylesheet type="text/xsl" href="bin/preview.xsl"?>' . "\n";
 	$selfRssUrl = str_replace('&', '&amp;', $requestUri);
-?><rss version="2.0">
+?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <image>
             <url>https://www.sreality.cz/img/sreality-logo.png</url>
