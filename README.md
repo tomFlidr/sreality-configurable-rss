@@ -14,3 +14,9 @@ composer create-project tomflidr/sreality-configurable-rss
 - set up `$mySqlConfig` array to cache loaded items
 - configure `$realEstatesSearchConfig` array by commenting and uncommenting values you want or don't want
 - got to `index.php` and follow instructions there:-)
+
+## TODO
+- implement RSS items date property
+  - before previous data are truncated in db, select them, compare guids from old items and new items
+    and if there is the same guid, transfer date from previous item already in database into new item.
+	For items without any date - add current time(). Then truncate previous data and insert new items.
