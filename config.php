@@ -9,7 +9,7 @@
 		'user'		=> 'root',
 		'pass'		=> '', // empty string means no pass
 		'dbname'	=> 'sreality',
-		'table'		=> 'items',
+		'table'		=> 'rss_estates',
 		'params'	=> array(
 			\PDO::ATTR_EMULATE_PREPARES			=> FALSE, // let params inserting on database
 			\PDO::MYSQL_ATTR_MULTI_STATEMENTS	=> TRUE,
