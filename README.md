@@ -11,8 +11,10 @@ composer create-project tomflidr/sreality-configurable-rss
 ```
 - open `config.php`
 - [Get and copy Google Maps API key](https://developers.google.com/maps/documentation/static-maps/?refresh=1&pli=1) into `$googleMapsApiKey`
-- create single table in your mysql server to cache loaded items
+- create single database with single table in your MySQL/MariaDB server to cache loaded items:
   ```
+  CREATE DATABASE `sreality` /*!40100 COLLATE 'utf8_general_ci' */
+  USE `sreality`;
   CREATE TABLE `rss_estates` (
      `id` VARCHAR(255) NOT NULL,
      `data` TEXT NOT NULL,
