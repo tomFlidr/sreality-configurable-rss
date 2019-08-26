@@ -20,11 +20,11 @@ composer create-project tomflidr/sreality-configurable-rss
      INDEX `id` (`id`)
   ) COLLATE='utf8_general_ci' ENGINE=InnoDB;
   ```
-- open `config.php`
+- open `config.php` in your favorite text editor
   - set up `$mySqlConfig` array to connect into database for cached items
   - [Get and copy Google Maps API key](https://developers.google.com/maps/documentation/static-maps/?refresh=1&pli=1) into `$googleMapsApiKey`
   - configure `$realEstatesSearchConfig` array by commenting and uncommenting values you want or don't want
-- got to `index.php` and follow instructions there:-)
+- call `index.php` over HTTP(s) in your favorite web server (Apache/IIS/Nginx) and follow instructions there:-)
 
 ## TODO
 - implement RSS items date property
