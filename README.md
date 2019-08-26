@@ -9,8 +9,7 @@ Sreality.cz FREE Custom Configurable RSS Channel With Images And Google Maps.
 # load project into 'development' directory, if directory doesn't exists, create it
 composer create-project tomflidr/sreality-configurable-rss
 ```
-- open `config.php`
-- [Get and copy Google Maps API key](https://developers.google.com/maps/documentation/static-maps/?refresh=1&pli=1) into `$googleMapsApiKey`
+
 - create single database with single table in your MySQL/MariaDB server to cache loaded items:
   ```
   CREATE DATABASE `sreality` /*!40100 COLLATE 'utf8_general_ci' */
@@ -21,8 +20,10 @@ composer create-project tomflidr/sreality-configurable-rss
      INDEX `id` (`id`)
   ) COLLATE='utf8_general_ci' ENGINE=InnoDB;
   ```
-- set up `$mySqlConfig` array to connect into database for cached items
-- configure `$realEstatesSearchConfig` array by commenting and uncommenting values you want or don't want
+- open `config.php`
+  - set up `$mySqlConfig` array to connect into database for cached items
+  - [Get and copy Google Maps API key](https://developers.google.com/maps/documentation/static-maps/?refresh=1&pli=1) into `$googleMapsApiKey`
+  - configure `$realEstatesSearchConfig` array by commenting and uncommenting values you want or don't want
 - got to `index.php` and follow instructions there:-)
 
 ## TODO
