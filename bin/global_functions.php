@@ -20,6 +20,8 @@
 	
 	function loadData ($url) {
 		$curl = curl_init($url); 
+		if (defined('CURLOPT_IPRESOLVE') && defined('CURL_IPRESOLVE_V4'))
+		   curl_setopt($curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
 		curl_setopt($curl, CURLOPT_FAILONERROR, true); 
 		curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true); 
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); 
